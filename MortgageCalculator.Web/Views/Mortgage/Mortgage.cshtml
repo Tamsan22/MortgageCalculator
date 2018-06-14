@@ -1,0 +1,50 @@
+﻿@model IEnumerable<MortgageCalculator.Web.Models.Mortgage>
+
+@{
+    ViewBag.Title = "Mortgage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Mortgage</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MortgageType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Interest)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LoanAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TermsInYear)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MortgageType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Interest)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LoanAmount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TermsInYear)
+        </td>
+        <td>
+            @Html.ActionLink("Select", "Edit", new { id=item.MortgageId }) 
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,102 @@
+﻿@model MortgageCalculator.Web.Models.Mortgage
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Mortgage</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.MortgageId)
+
+        
+        <div class="form-group">
+            @Html.LabelFor(model => model.MortgageType, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MortgageType, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MortgageType, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Interest, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Interest, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Interest, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.LoanAmount, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.LoanAmount, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.LoanAmount, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TermsInYear, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TermsInYear, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TermsInYear, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Calculate" class="btn btn-default" />
+            </div>
+        </div>
+
+        <h2> Monthly Payment: @ViewBag.Mi</h2>
+        <h2> Total Amount to Pay(Principal and Interest): @ViewBag.pi</h2>
+        <h2> Total Interest to Pay: @ViewBag.ip</h2>
+
+        <table class="table table-bordered table-hover" id="tblItemsDetails">
+            <thead>
+                <tr>
+                    <th>SNo</th>
+                    <th>Principal Amount</th>
+                    <th>Monthly Due</th>
+                    <th>Interest To Pay</th>
+                    <th>Principal To Pay</th>
+                    <th>Outstanding</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                @{int i = 1;}
+                @foreach (var itemsDetails in @ViewBag.List)
+                {
+                    <tr data-id="@i">
+                        <td><span>@(i++)</span></td>
+                        <td>@itemsDetails.ItemArray[0]</td>
+                        <td>@itemsDetails.ItemArray[1]</td>
+                        <td>@itemsDetails.ItemArray[2]</td>
+                        <td>@itemsDetails.ItemArray[3]</td>
+                        <td>@itemsDetails.ItemArray[4]</td>
+                       
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Mortgage")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,1037 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MortgageCalculator.Web.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController">
+            <summary>Shim type of MortgageCalculator.Web.Controllers.HomeController</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.#ctor(MortgageCalculator.Web.Controllers.HomeController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.AllInstances.Index">
+            <summary>Sets the shim of HomeController.Index()</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Filters.IAuthenticationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Constructor">
+            <summary>Sets the shim of HomeController.HomeController()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimHomeController.Index">
+            <summary>Sets the shim of HomeController.Index()</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController">
+            <summary>Shim type of MortgageCalculator.Web.Controllers.MortgageController</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.#ctor(MortgageCalculator.Web.Controllers.MortgageController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.AllInstances.EditInt32">
+            <summary>Sets the shim of MortgageController.Edit(Int32 id)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.AllInstances.EditMortgage">
+            <summary>Sets the shim of MortgageController.Edit(Mortgage std)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.AllInstances.FormulaDoubleInt32">
+            <summary>Sets the shim of MortgageController.Formula(Double p, Int32 t)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.AllInstances.Mortgage">
+            <summary>Sets the shim of MortgageController.Mortgage()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.AllInstances.MortgageDetailsDoubleDoubleInt32Double">
+            <summary>Sets the shim of MortgageController.MortgageDetails(Double l, Double p, Int32 t, Double m)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.AllInstances.MortgageResult">
+            <summary>Sets the shim of MortgageController.MortgageResult()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.AllInstances.calculateMortgageDoubleDoubleInt32">
+            <summary>Sets the shim of MortgageController.calculateMortgage(Double l, Double p, Int32 t)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.AllInstances.getPercentageDouble">
+            <summary>Sets the shim of MortgageController.getPercentage(Double interest)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.AllInstances.getTermsInt32">
+            <summary>Sets the shim of MortgageController.getTerms(Int32 termsInYear)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Bind(System.Web.Mvc.Filters.IAuthenticationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Constructor">
+            <summary>Sets the shim of MortgageController.MortgageController()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.EditInt32">
+            <summary>Sets the shim of MortgageController.Edit(Int32 id)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.EditMortgage">
+            <summary>Sets the shim of MortgageController.Edit(Mortgage std)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.FormulaDoubleInt32">
+            <summary>Sets the shim of MortgageController.Formula(Double p, Int32 t)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.Mortgage">
+            <summary>Sets the shim of MortgageController.Mortgage()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.MortgageDetailsDoubleDoubleInt32Double">
+            <summary>Sets the shim of MortgageController.MortgageDetails(Double l, Double p, Int32 t, Double m)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.MortgageResult">
+            <summary>Sets the shim of MortgageController.MortgageResult()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.calculateMortgageDoubleDoubleInt32">
+            <summary>Sets the shim of MortgageController.calculateMortgage(Double l, Double p, Int32 t)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.getPercentageDouble">
+            <summary>Sets the shim of MortgageController.getPercentage(Double interest)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.ShimMortgageController.getTermsInt32">
+            <summary>Sets the shim of MortgageController.getTerms(Int32 termsInYear)</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Controllers.Fakes.StubHomeController">
+            <summary>Stub type of MortgageCalculator.Web.Controllers.HomeController</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.CreateActionInvoker">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.CreateActionInvoker01">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.CreateTempDataProvider">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.CreateTempDataProvider01">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.DisableAsyncSupport">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.DisableAsyncSupportGet">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.Dispose(System.Boolean)">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.DisposeBoolean">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.ExecuteCore">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.ExecuteCore01">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.ExecuteRequestContext">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.FileByteArrayStringString">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.FileStreamStringString">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.FileStringStringString">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.HandleUnknownActionString">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.HttpNotFound(System.String)">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.HttpNotFoundString">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.InitializeRequestContext">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.InitializeStub">
+            <summary>Initializes a new instance of type StubHomeController</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.JavaScript(System.String)">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.JavaScriptString">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnAuthentication(System.Web.Mvc.Filters.AuthenticationContext)">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnAuthenticationAuthenticationContext">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnAuthenticationChallenge(System.Web.Mvc.Filters.AuthenticationChallengeContext)">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnAuthenticationChallengeAuthenticationChallengeContext">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnExceptionExceptionContext">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.PartialViewStringObject">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.Redirect(System.String)">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectPermanentString">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectString">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.ViewIViewObject">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubHomeController.ViewStringStringObject">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController">
+            <summary>Stub type of MortgageCalculator.Web.Controllers.MortgageController</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.CreateActionInvoker">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.CreateActionInvoker01">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.CreateTempDataProvider">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.CreateTempDataProvider01">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.DisableAsyncSupport">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.DisableAsyncSupportGet">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.Dispose(System.Boolean)">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.DisposeBoolean">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.ExecuteCore">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.ExecuteCore01">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.ExecuteRequestContext">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.FileByteArrayStringString">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.FileStreamStringString">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.FileStringStringString">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.HandleUnknownActionString">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.HttpNotFound(System.String)">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.HttpNotFoundString">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.InitializeRequestContext">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.InitializeStub">
+            <summary>Initializes a new instance of type StubMortgageController</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.JavaScript(System.String)">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.JavaScriptString">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnAuthentication(System.Web.Mvc.Filters.AuthenticationContext)">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnAuthenticationAuthenticationContext">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnAuthenticationChallenge(System.Web.Mvc.Filters.AuthenticationChallengeContext)">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnAuthenticationChallengeAuthenticationChallengeContext">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnExceptionExceptionContext">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.PartialViewStringObject">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.Redirect(System.String)">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectPermanentString">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectString">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.ViewIViewObject">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Controllers.Fakes.StubMortgageController.ViewStringStringObject">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.ShimBundleConfig">
+            <summary>Shim type of MortgageCalculator.Web.BundleConfig</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimBundleConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimBundleConfig.#ctor(MortgageCalculator.Web.BundleConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.ShimBundleConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimBundleConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimBundleConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimBundleConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimBundleConfig.Constructor">
+            <summary>Sets the shim of BundleConfig.BundleConfig()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimBundleConfig.RegisterBundlesBundleCollection">
+            <summary>Sets the shim of BundleConfig.RegisterBundles(BundleCollection bundles)</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.ShimFilterConfig">
+            <summary>Shim type of MortgageCalculator.Web.FilterConfig</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimFilterConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimFilterConfig.#ctor(MortgageCalculator.Web.FilterConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.ShimFilterConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimFilterConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimFilterConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimFilterConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimFilterConfig.Constructor">
+            <summary>Sets the shim of FilterConfig.FilterConfig()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimFilterConfig.RegisterGlobalFiltersGlobalFilterCollection">
+            <summary>Sets the shim of FilterConfig.RegisterGlobalFilters(GlobalFilterCollection filters)</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.ShimMvcApplication">
+            <summary>Shim type of MortgageCalculator.Web.MvcApplication</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimMvcApplication.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimMvcApplication.#ctor(MortgageCalculator.Web.MvcApplication)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.ShimMvcApplication.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimMvcApplication.AllInstances.Application_Start">
+            <summary>Sets the shim of MvcApplication.Application_Start()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimMvcApplication.Application_Start">
+            <summary>Sets the shim of MvcApplication.Application_Start()</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimMvcApplication.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimMvcApplication.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimMvcApplication.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimMvcApplication.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimMvcApplication.Bind(System.Web.IHttpAsyncHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimMvcApplication.Bind(System.Web.IHttpHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimMvcApplication.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimMvcApplication.Constructor">
+            <summary>Sets the shim of MvcApplication.MvcApplication()</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.ShimRouteConfig">
+            <summary>Shim type of MortgageCalculator.Web.RouteConfig</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimRouteConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimRouteConfig.#ctor(MortgageCalculator.Web.RouteConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.ShimRouteConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimRouteConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.ShimRouteConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimRouteConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimRouteConfig.Constructor">
+            <summary>Sets the shim of RouteConfig.RouteConfig()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.ShimRouteConfig.RegisterRoutesRouteCollection">
+            <summary>Sets the shim of RouteConfig.RegisterRoutes(RouteCollection routes)</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.StubBundleConfig">
+            <summary>Stub type of MortgageCalculator.Web.BundleConfig</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubBundleConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubBundleConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubBundleConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubBundleConfig</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubBundleConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubBundleConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.StubFilterConfig">
+            <summary>Stub type of MortgageCalculator.Web.FilterConfig</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubFilterConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubFilterConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubFilterConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubFilterConfig</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubFilterConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubFilterConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.StubMvcApplication">
+            <summary>Stub type of MortgageCalculator.Web.MvcApplication</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubMvcApplication.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubMvcApplication.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubMvcApplication.Dispose">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Fakes.StubMvcApplication.Dispose01">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubMvcApplication.GetOutputCacheProviderName(System.Web.HttpContext)">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Fakes.StubMvcApplication.GetOutputCacheProviderNameHttpContext">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubMvcApplication.GetVaryByCustomString(System.Web.HttpContext,System.String)">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Fakes.StubMvcApplication.GetVaryByCustomStringHttpContextString">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubMvcApplication.Init">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="F:MortgageCalculator.Web.Fakes.StubMvcApplication.Init01">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubMvcApplication.InitializeStub">
+            <summary>Initializes a new instance of type StubMvcApplication</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubMvcApplication.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubMvcApplication.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Fakes.StubRouteConfig">
+            <summary>Stub type of MortgageCalculator.Web.RouteConfig</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubRouteConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubRouteConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Fakes.StubRouteConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubRouteConfig</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubRouteConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Fakes.StubRouteConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Models.Fakes.ShimMortgage">
+            <summary>Shim type of MortgageCalculator.Web.Models.Mortgage</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.ShimMortgage.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.ShimMortgage.#ctor(MortgageCalculator.Web.Models.Mortgage)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances.InterestGet">
+            <summary>Sets the shim of Mortgage.get_Interest()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances.InterestSetInt32">
+            <summary>Sets the shim of Mortgage.set_Interest(Int32 value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances.LoanAmountGet">
+            <summary>Sets the shim of Mortgage.get_LoanAmount()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances.LoanAmountSetInt32">
+            <summary>Sets the shim of Mortgage.set_LoanAmount(Int32 value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances.MortgageIdGet">
+            <summary>Sets the shim of Mortgage.get_MortgageId()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances.MortgageIdSetInt32">
+            <summary>Sets the shim of Mortgage.set_MortgageId(Int32 value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances.MortgageTypeGet">
+            <summary>Sets the shim of Mortgage.get_MortgageType()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances.MortgageTypeSetString">
+            <summary>Sets the shim of Mortgage.set_MortgageType(String value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances.TermsInYearGet">
+            <summary>Sets the shim of Mortgage.get_TermsInYear()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.AllInstances.TermsInYearSetInt32">
+            <summary>Sets the shim of Mortgage.set_TermsInYear(Int32 value)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.ShimMortgage.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.ShimMortgage.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.Constructor">
+            <summary>Sets the shim of Mortgage.Mortgage()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.InterestGet">
+            <summary>Sets the shim of Mortgage.get_Interest()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.InterestSetInt32">
+            <summary>Sets the shim of Mortgage.set_Interest(Int32 value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.LoanAmountGet">
+            <summary>Sets the shim of Mortgage.get_LoanAmount()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.LoanAmountSetInt32">
+            <summary>Sets the shim of Mortgage.set_LoanAmount(Int32 value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.MortgageIdGet">
+            <summary>Sets the shim of Mortgage.get_MortgageId()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.MortgageIdSetInt32">
+            <summary>Sets the shim of Mortgage.set_MortgageId(Int32 value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.MortgageTypeGet">
+            <summary>Sets the shim of Mortgage.get_MortgageType()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.MortgageTypeSetString">
+            <summary>Sets the shim of Mortgage.set_MortgageType(String value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.TermsInYearGet">
+            <summary>Sets the shim of Mortgage.get_TermsInYear()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgage.TermsInYearSetInt32">
+            <summary>Sets the shim of Mortgage.set_TermsInYear(Int32 value)</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult">
+            <summary>Shim type of MortgageCalculator.Web.Models.MortgageResult</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.#ctor(MortgageCalculator.Web.Models.MortgageResult)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances.InterestToPayGet">
+            <summary>Sets the shim of MortgageResult.get_InterestToPay()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances.InterestToPaySetDouble">
+            <summary>Sets the shim of MortgageResult.set_InterestToPay(Double value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances.MonthlyDueGet">
+            <summary>Sets the shim of MortgageResult.get_MonthlyDue()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances.MonthlyDueSetDouble">
+            <summary>Sets the shim of MortgageResult.set_MonthlyDue(Double value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances.OutstandingGet">
+            <summary>Sets the shim of MortgageResult.get_Outstanding()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances.OutstandingSetDouble">
+            <summary>Sets the shim of MortgageResult.set_Outstanding(Double value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances.PrincipalAmountGet">
+            <summary>Sets the shim of MortgageResult.get_PrincipalAmount()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances.PrincipalAmountSetDouble">
+            <summary>Sets the shim of MortgageResult.set_PrincipalAmount(Double value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances.PrincipalToPayGet">
+            <summary>Sets the shim of MortgageResult.get_PrincipalToPay()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.AllInstances.PrincipalToPaySetDouble">
+            <summary>Sets the shim of MortgageResult.set_PrincipalToPay(Double value)</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.Constructor">
+            <summary>Sets the shim of MortgageResult.MortgageResult()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.InterestToPayGet">
+            <summary>Sets the shim of MortgageResult.get_InterestToPay()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.InterestToPaySetDouble">
+            <summary>Sets the shim of MortgageResult.set_InterestToPay(Double value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.MonthlyDueGet">
+            <summary>Sets the shim of MortgageResult.get_MonthlyDue()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.MonthlyDueSetDouble">
+            <summary>Sets the shim of MortgageResult.set_MonthlyDue(Double value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.OutstandingGet">
+            <summary>Sets the shim of MortgageResult.get_Outstanding()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.OutstandingSetDouble">
+            <summary>Sets the shim of MortgageResult.set_Outstanding(Double value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.PrincipalAmountGet">
+            <summary>Sets the shim of MortgageResult.get_PrincipalAmount()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.PrincipalAmountSetDouble">
+            <summary>Sets the shim of MortgageResult.set_PrincipalAmount(Double value)</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.PrincipalToPayGet">
+            <summary>Sets the shim of MortgageResult.get_PrincipalToPay()</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.ShimMortgageResult.PrincipalToPaySetDouble">
+            <summary>Sets the shim of MortgageResult.set_PrincipalToPay(Double value)</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Models.Fakes.StubMortgage">
+            <summary>Stub type of MortgageCalculator.Web.Models.Mortgage</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.StubMortgage.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.StubMortgage.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.StubMortgage.InitializeStub">
+            <summary>Initializes a new instance of type StubMortgage</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.StubMortgage.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.StubMortgage.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MortgageCalculator.Web.Models.Fakes.StubMortgageResult">
+            <summary>Stub type of MortgageCalculator.Web.Models.MortgageResult</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.StubMortgageResult.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.StubMortgageResult.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:MortgageCalculator.Web.Models.Fakes.StubMortgageResult.InitializeStub">
+            <summary>Initializes a new instance of type StubMortgageResult</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.StubMortgageResult.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MortgageCalculator.Web.Models.Fakes.StubMortgageResult.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

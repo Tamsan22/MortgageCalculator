@@ -1,0 +1,58 @@
+﻿@model IEnumerable<MortgageCalculator.Web.Models.MortgageResult>
+
+@{
+    ViewBag.Title = "MortgageResult";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MortgageResult</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PrincipalAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MonthlyDue)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InterestToPay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PrincipalToPay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Outstanding)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrincipalAmount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MonthlyDue)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InterestToPay)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrincipalToPay)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Outstanding)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
